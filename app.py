@@ -115,8 +115,8 @@ try:
     # Enviar a sequência de teclas
     actions = webdriver.ActionChains(driver)
 
-    # Pressionar Tab 5 vezes com pausas
-    for _ in range(6):
+    # Pressionar Tab 8 vezes com pausas
+    for _ in range(8):
         actions.send_keys(Keys.TAB)
         actions.perform()  # Executa a ação
         time.sleep(1.5)  # Pausa de 0.5 segundos entre as teclas
@@ -139,6 +139,73 @@ try:
     time.sleep(1)  # Pausa após o Enter, para ver o efeito
 
     print("Sequência de teclas enviada com sucesso!")
+
+    # Aguarde 2 segundos antes de iniciar a ação
+    time.sleep(2)
+
+    # Criar a sequência de ações
+    actions = ActionChains(driver)
+
+    # Manter pressionada a tecla Shift, pressionar Tab 3 vezes e soltar Shift
+    actions.key_down(Keys.SHIFT)  # Pressiona Shift
+    for _ in range(4):
+        actions.send_keys(Keys.TAB)  # Pressiona Tab enquanto o Shift está pressionado
+        time.sleep(1)  # Aguarda 1 segundo entre cada pressionamento
+    actions.key_up(Keys.SHIFT)  # Solta o Shift
+    actions.perform()  # Executa a sequência de ações
+
+    print("cursor voltou com sucesso")
+
+    # Pressionar seta para baixo 5 vezes com pausas
+    for _ in range(5):
+        actions.send_keys(Keys.ARROW_DOWN)
+        actions.perform()  # Executa a ação
+        time.sleep(1.5)  # Pausa de 0.5 segundos entre as teclas
+
+    # Pressionar Tab 3 vezes com pausas
+    for _ in range(3):
+        actions.send_keys(Keys.TAB)
+        actions.perform()  # Executa a ação
+        time.sleep(1.5)  # Pausa de 0.5 segundos entre as teclas
+    
+    # Pressionar Enter 1 vez
+    actions.send_keys(Keys.ENTER)
+    actions.perform()  # Executa a ação
+    time.sleep(1)  # Pausa após o Enter, para ver o efeito
+
+    # Aguarde 2 segundos antes de iniciar a ação
+    time.sleep(2)
+
+    # Criar a sequência de ações
+    actions = ActionChains(driver)
+
+    # Manter pressionada a tecla Shift, pressionar Tab 3 vezes e soltar Shift
+    actions.key_down(Keys.SHIFT)  # Pressiona Shift
+    for _ in range(4):
+        actions.send_keys(Keys.TAB)  # Pressiona Tab enquanto o Shift está pressionado
+        time.sleep(1)  # Aguarda 1 segundo entre cada pressionamento
+    actions.key_up(Keys.SHIFT)  # Solta o Shift
+    actions.perform()  # Executa a sequência de ações
+
+    print("cursor voltou com sucesso")
+
+    # Pressionar seta para baixo 6 vezes com pausas
+    for _ in range(6):
+        actions.send_keys(Keys.ARROW_DOWN)
+        actions.perform()  # Executa a ação
+        time.sleep(1.5)  # Pausa de 0.5 segundos entre as teclas
+
+    # Pressionar Tab 3 vezes com pausas
+    for _ in range(3):
+        actions.send_keys(Keys.TAB)
+        actions.perform()  # Executa a ação
+        time.sleep(1.5)  # Pausa de 0.5 segundos entre as teclas
+    
+    # Pressionar Enter 1 vez
+    actions.send_keys(Keys.ENTER)
+    actions.perform()  # Executa a ação
+    time.sleep(1)  # Pausa após o Enter, para ver o efeito
+
 
 
 except Exception as e:
