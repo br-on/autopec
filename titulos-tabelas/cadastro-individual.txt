@@ -1,0 +1,60 @@
+Identificação do usuário / cidadão - Faixa etária
+Identificação do usuário / cidadão
+Identificação do usuário / cidadão - Sexo
+Identificação do usuário / cidadão - Raça / Cor
+Identificação do usuário / cidadão - Etnia
+Identificação do usuário / cidadão - Nacionalidade
+Informações sociodemográficas - Relação de parentesco com o responsável familiar
+Informações sociodemográficas - Ocupação
+Informações sociodemográficas - Qual é o curso mais elevado que frequenta ou frequentou
+Informações sociodemográficas - Situação no mercado de trabalho
+Informações sociodemográficas - Crianças de 0 a 9 anos, com quem fica
+Informações sociodemográficas - Orientação sexual
+Informações sociodemográficas - Identidade de gênero
+Informações sociodemográficas - Deficiência
+Informações sociodemográficas - Povos e comunidades
+Outras informações sociodemográficas
+Condições / Situações de saúde gerais
+Condições / Situações de saúde gerais - Sobre seu peso, você se considera
+Condições / Situações de saúde gerais - Doença respiratória
+Condições / Situações de saúde gerais - Doença cardíaca
+Condições / Situações de saúde gerais - Problemas nos rins
+Cidadão em situação de rua
+Cidadão em situação de rua - Tempo em situação de rua
+Cidadão em situação de rua - Quantas vezes se alimenta ao dia
+Cidadão em situação de rua - Qual a origem da alimentação
+Cidadão em situação de rua - Tem acesso à higiene pessoal
+TRIA - Nos últimos três meses, os alimentos acabaram antes que a pessoa tivesse dinheiro para comprar mais comida?
+TRIA - Nos últimos três meses, a pessoa comeu apenas alguns alimentos que ainda tinha, porque o dinheiro acabou?
+
+
+titulos = [
+    "Identificação do usuário / cidadão - Faixa etária",
+    "Identificação do usuário / cidadão",
+    "Identificação do usuário / cidadão - Sexo",
+    "Identificação do usuário / cidadão - Raça / Cor",
+    "Identificação do usuário / cidadão - Etnia",
+    "Identificação do usuário / cidadão - Nacionalidade",
+    "Informações sociodemográficas - Relação de parentesco com o responsável familiar",
+    "Informações sociodemográficas - Ocupação",
+    "Informações sociodemográficas - Qual é o curso mais elevado que frequenta ou frequentou",
+    "Informações sociodemográficas - Situação no mercado de trabalho",
+    "Informações sociodemográficas - Crianças de 0 a 9 anos, com quem fica",
+    "Informações sociodemográficas - Orientação sexual",
+    "Informações sociodemográficas - Identidade de gênero",
+    "Informações sociodemográficas - Deficiência",
+    "Informações sociodemográficas - Povos e comunidades",
+    "Outras informações sociodemográficas",
+    "Condições / Situações de saúde gerais",
+    "Condições / Situações de saúde gerais - Sobre seu peso, você se considera",
+    "Condições / Situações de saúde gerais - Doença respiratória",
+    "Condições / Situações de saúde gerais - Doença cardíaca",
+    "Condições / Situações de saúde gerais - Problemas nos rins",
+    "Cidadão em situação de rua",
+    "Cidadão em situação de rua - Tempo em situação de rua",
+    "Cidadão em situação de rua - Quantas vezes se alimenta ao dia",
+    "Cidadão em situação de rua - Qual a origem da alimentação",
+    "Cidadão em situação de rua - Tem acesso à higiene pessoal",
+    "TRIA - Nos últimos três meses, os alimentos acabaram antes que a pessoa tivesse dinheiro para comprar mais comida?",
+    "TRIA - Nos últimos três meses, a pessoa comeu apenas alguns alimentos que ainda tinha, porque o dinheiro acabou?"
+]
