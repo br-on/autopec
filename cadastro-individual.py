@@ -1,12 +1,35 @@
 import csv
 import os
 import chardet
+import openpyxl
+from openpyxl import Workbook
 
 def detectar_codificacao(arquivo):
-    with open(arquivo, 'rb') as f:
-        rawdata = f.read()
-        resultado = chardet.detect(rawdata)
-        return resultado['encoding']
+    return 'ISO-8859-1'  # Usando uma codificação mais flexível para evitar erros de leitura
+
+def obter_valor_b11(input_csv):
+    encoding = detectar_codificacao(input_csv)
+    with open(input_csv, 'r', encoding=encoding) as file:
+        reader = list(csv.reader(file))
+        
+        # Verificando quantas linhas e colunas o arquivo tem
+        print(f"Linhas no arquivo CSV: {len(reader)}")
+
+        # Inspeção das primeiras 15 linhas do arquivo CSV para depuração
+        print("Primeiras linhas do arquivo CSV:")
+        for i, row in enumerate(reader[:15]):  # Verificando as 15 primeiras linhas
+            print(f"Linha {i+1}: {row}")
+        
+        # Verifica se o arquivo tem pelo menos 11 linhas
+        if len(reader) > 10:
+            # A linha B11 está em reader[10], e o valor desejado está após o ';'
+            linha_b11 = reader[10][0]  # Pega a string 'Equipe;0000152404 - BERARDO'
+            valor_b11 = linha_b11.split(';')[1].strip()  # Divide e pega a segunda parte
+        else:
+            valor_b11 = "N/A"  # Caso não haja B11, retorna "N/A"
+    
+    print(f"Valor de B11 lido: '{valor_b11}'")  # Debug
+    return valor_b11
 
 def separar_tabelas(input_csv, output_dir, titulos):
     if not os.path.exists(output_dir):
@@ -15,23 +38,21 @@ def separar_tabelas(input_csv, output_dir, titulos):
     # Detectando a codificação do arquivo de entrada
     encoding = detectar_codificacao(input_csv)
 
+    # Obter o valor da célula B11
+    valor_b11 = obter_valor_b11(input_csv)
+
     with open(input_csv, 'r', encoding=encoding) as file:
         reader = list(csv.reader(file))
         tabela_atual = []
         titulo_atual = None
-        valor_celula_a5 = None
-
-        if len(reader) >= 5:
-            # Salva e limpa o valor da célula A5
-            valor_celula_a5 = reader[4][0].strip() if reader[4][0] else None
-
+        
         for i, row in enumerate(reader):
             if not row:
                 continue
 
             if row[0] in titulos:  # Verifica se a linha contém um título válido
                 if tabela_atual and titulo_atual:  # Salva a tabela anterior
-                    salvar_tabela(titulo_atual, tabela_atual, output_dir, valor_celula_a5)
+                    salvar_tabela(titulo_atual, tabela_atual, output_dir, valor_b11)
                 titulo_atual = row[0]  # Atualiza o título atual
                 tabela_atual = []  # Reinicia a tabela
             elif row:  # Adiciona linha à tabela atual
@@ -39,43 +60,29 @@ def separar_tabelas(input_csv, output_dir, titulos):
 
         # Salva a última tabela, se existir
         if tabela_atual and titulo_atual:
-            salvar_tabela(titulo_atual, tabela_atual, output_dir, valor_celula_a5)
+            salvar_tabela(titulo_atual, tabela_atual, output_dir, valor_b11)
 
-def salvar_tabela(titulo, tabela, output_dir, valor_celula_a5):
-    nome_arquivo = titulo.replace(" / ", "_").replace(" ", "_").replace("-", "_").replace("__", "_").strip("_") + '.csv'
+def salvar_tabela(titulo, tabela, output_dir, valor_b11):
+    nome_arquivo = titulo.replace(" / ", "_").replace(" ", "_").replace("-", "_").replace("__", "_").strip("_") + '.xlsx'
     caminho_completo = os.path.join(output_dir, nome_arquivo)
 
-    with open(caminho_completo, 'w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        for row in tabela:
-            # Adiciona `valor_celula_a5` apenas se não for None
-            writer.writerow([valor_celula_a5 or ""] + row)
+    # Cria uma nova planilha
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "Tabela"
 
+    # Adiciona a coluna B11 à esquerda de todas as linhas da tabela
+    for i, row in enumerate(tabela, start=1):
+        ws.cell(row=i, column=1, value=valor_b11)  # Coloca o valor de B11 na coluna 1
+        for j, cell in enumerate(row, start=2):  # Adiciona os dados da tabela a partir da coluna 2
+            ws.cell(row=i, column=j, value=cell)
+
+    # Salva a planilha
+    wb.save(caminho_completo)
     print(f"Tabela '{titulo}' salva em '{caminho_completo}'.")
 
-def atualizar_tabelas_com_a5(output_dir, valor_a5):
-    """
-    Abre cada tabela no diretório de saída e adiciona o valor de A5 na próxima coluna disponível.
-    """
-    for arquivo in os.listdir(output_dir):
-        caminho_arquivo = os.path.join(output_dir, arquivo)
-
-        if not arquivo.endswith('.csv'):
-            continue
-
-        with open(caminho_arquivo, 'r', encoding='utf-8') as file:
-            reader = list(csv.reader(file))
-        
-        with open(caminho_arquivo, 'w', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file)
-            for row in reader:
-                row.append(valor_a5)
-                writer.writerow(row)
-
-        print(f"Valor de A5 adicionado em '{arquivo}'.")
-
 # Configurações do script
-input_csv = 'Relatório de cadastro individual-20250127223114.csv'
+input_csv = 'Relatório de cadastro individual-20250128133355.csv'
 output_dir = 'tabelas_separadas'
 
 # Títulos das tabelas
@@ -110,15 +117,5 @@ titulos = [
     "TRIA - Nos últimos três meses, a pessoa comeu apenas alguns alimentos que ainda tinha, porque o dinheiro acabou?"
 ]
 
-
 # Passo 1: Separar as tabelas
 separar_tabelas(input_csv, output_dir, titulos)
-
-# Passo 2: Obter o valor da célula A5
-encoding = detectar_codificacao(input_csv)
-with open(input_csv, 'r', encoding=encoding) as file:
-    reader = list(csv.reader(file))
-    valor_a5 = reader[4][0] if len(reader) >= 5 else "N/A"
-
-# Passo 3: Atualizar tabelas com o valor de A5
-atualizar_tabelas_com_a5(output_dir, valor_a5)

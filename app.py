@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 # Configuração do navegador
-driver_path = r"C:\Users\Bruno Gama\Documents\msedgedriver.exe"  # Caminho do Edge WebDriver
+driver_path = r"C:\Users\SAÚDE DIGITAL\Documents\msedgedriver.exe"  # Caminho do Edge WebDriver
 url_pec = "https://esus.recife.pe.gov.br/"
 service = Service(driver_path)
 
@@ -108,16 +108,37 @@ try:
     )
     cadastro_individual.click()
 
+    #########################################################
     # Esperar para garantir que a próxima etapa está carregada
     time.sleep(5)
 
-    # Criar uma instância de ActionChains
-    actions = ActionChains(driver)
+    # Enviar a sequência de teclas
+    actions = webdriver.ActionChains(driver)
 
-    # Pressionar Tab tres vezes e Enter
-    actions.send_keys(Keys.TAB).send_keys(Keys.TAB).send_keys(Keys.TAB).send_keys(Keys.TAB).send_keys(Keys.TAB).send_keys(Keys.TAB).send_keys(Keys.TAB).send_keys(Keys.ENTER).perform()
+    # Pressionar Tab 5 vezes com pausas
+    for _ in range(6):
+        actions.send_keys(Keys.TAB)
+        actions.perform()  # Executa a ação
+        time.sleep(1.5)  # Pausa de 0.5 segundos entre as teclas
 
-    print("Tab pressionado 7 vezes e Enter pressionado")
+    # Pressionar seta para baixo 4 vezes com pausas
+    for _ in range(4):
+        actions.send_keys(Keys.ARROW_DOWN)
+        actions.perform()  # Executa a ação
+        time.sleep(1.5)  # Pausa de 0.5 segundos entre as teclas
+
+    # Pressionar Tab 3 vezes com pausas
+    for _ in range(3):
+        actions.send_keys(Keys.TAB)
+        actions.perform()  # Executa a ação
+        time.sleep(1.5)  # Pausa de 0.5 segundos entre as teclas
+
+    # Pressionar Enter 1 vez
+    actions.send_keys(Keys.ENTER)
+    actions.perform()  # Executa a ação
+    time.sleep(1)  # Pausa após o Enter, para ver o efeito
+
+    print("Sequência de teclas enviada com sucesso!")
 
 
 except Exception as e:

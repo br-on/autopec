@@ -1,0 +1,448 @@
+e-SUS - Atenção Primária
+MINISTÉRIO DA SAÚDE
+ESTADO DE PERNAMBUCO
+MUNICÍPIO DE RECIFE
+UNIDADE DE SAÚDE US 106 CS PROF JOAQUIM CAVALCANTE
+
+Relatório de cadastro individual - Analítico
+
+FILTROS
+Data;28/01/2025
+Equipe;0000152404 - BERARDO
+Profissional;Todos
+CBO;Todos
+Filtros personalizados;Nenhum
+
+
+Dados processados em ;28/01/2025; às ;00:38;
+Gerado em ;28/01/2025; às ;13:33; por ;Bruno Henrique da Gama Santos
+
+O resultado pode contemplar informações de equipes vinculadas.
+
+Dados gerais
+Descrição;Quantidade;
+Cidadãos ativos;1819;
+Saída de cidadãos do cadastro;333;
+
+Identificação do usuário / cidadão - Faixa etária
+Descrição;Masculino;Feminino;Indeterminado;Não informado;
+Menos de 01 ano;19;18;0;0;
+01 ano;10;18;0;0;
+02 anos;16;7;0;0;
+03 anos;15;15;0;0;
+04 anos;12;10;0;0;
+05 a 09 anos;66;54;0;0;
+10 a 14 anos;61;48;0;0;
+15 a 19 anos;48;70;0;0;
+20 a 24 anos;46;67;0;0;
+25 a 29 anos;59;72;0;0;
+30 a 34 anos;49;73;0;0;
+35 a 39 anos;58;79;0;1;
+40 a 44 anos;51;61;0;0;
+45 a 49 anos;57;79;0;0;
+50 a 54 anos;25;81;0;0;
+55 a 59 anos;50;73;0;0;
+60 a 64 anos;48;67;0;0;
+65 a 69 anos;25;61;0;0;
+70 a 74 anos;15;46;0;0;
+75 a 79 anos;8;29;0;0;
+80 anos ou mais;15;37;0;0;
+Não informado;0;0;0;0;
+
+Identificação do usuário / cidadão
+Descrição;Sim;Não;Não informado;
+Desconhece nome da mãe;12;1807;;
+Desconhece nome do pai;362;1457;;
+Responsável familiar;753;1066;0;
+
+Identificação do usuário / cidadão - Sexo
+Descrição;Quantidade;
+Masculino;753;
+Feminino;1065;
+Indeterminado;0;
+Não informado;1;
+
+Identificação do usuário / cidadão - Raça / Cor
+Descrição;Quantidade;
+Branca;232;
+Preta;239;
+Amarela;12;
+Parda;1336;
+Indígena;0;
+Não informado;0;
+
+Identificação do usuário / cidadão - Etnia
+Descrição;Quantidade;
+Não informado;1819;
+
+Identificação do usuário / cidadão - Nacionalidade
+Descrição;Quantidade;
+Brasileira;1819;
+Naturalizado;0;
+Estrangeiro;0;
+Não informado;0;
+
+Informações sociodemográficas - Relação de parentesco com o responsável familiar
+Descrição;Quantidade;
+Cônjuge / Companheiro(a);187;
+Filho(a);368;
+Enteado(a);14;
+Neto(a) / Bisneto(a);63;
+Pai / Mãe;28;
+Sogro(a);4;
+Irmão / Irmã;16;
+Genro / Nora;15;
+Outro parente;20;
+Não parente;17;
+Não informado;1087;
+
+Informações sociodemográficas - Ocupação
+Descrição;Quantidade;
+ACABADOR DE CALÇADOS;1;
+AÇOUGUEIRO;2;
+ADMINISTRADOR;9;
+ADVOGADO;1;
+AGENTE COMUNITÁRIO DE SAÚDE;2;
+AGENTE DE COMBATE ÀS ENDEMIAS;1;
+AGENTE DE PORTARIA;2;
+AGENTE DE TRÂNSITO;1;
+ALFAIATE;1;
+ALMOXARIFE;3;
+ANALISTA DE RECURSOS HUMANOS;1;
+ARQUIVISTA DE DOCUMENTOS;1;
+ARTESÃO BORDADOR;1;
+ASSISTENTE ADMINISTRATIVO;2;
+ATENDENTE COMERCIAL (AGÊNCIA POSTAL);1;
+ATENDENTE DE ENFERMAGEM;1;
+ATENDENTE DE FARMÁCIA - BALCONISTA;2;
+ATENDENTE DE LANCHONETE;7;
+ATENDENTE DE LOJAS E MERCADOS;1;
+ATLETA PROFISSIONAL DE FUTEBOL;1;
+AUXILIAR DE ESCRITÓRIO;8;
+AUXILIAR DE LAVANDERIA;3;
+AUXILIAR DE MANUTENÇÃO PREDIAL;1;
+AUXILIAR DE PESSOAL;3;
+AUXILIAR EM SAÚDE BUCAL;2;
+AUXILIAR GERAL DE CONSERVAÇÃO DE VIAS PERMANENTES (EXCETO TRILHOS);2;
+AUXILIAR NOS SERVIÇOS DE ALIMENTAÇÃO;1;
+BABÁ;3;
+BARBEIRO;1;
+BOMBEIRO CIVIL;1;
+CABELEIREIRO;10;
+CAMINHONEIRO AUTÔNOMO (ROTAS REGIONAIS E INTERNACIONAIS);1;
+CASEIRO (AGRICULTURA);1;
+CHURRASQUEIRO;1;
+COMERCIANTE VAREJISTA;18;
+CONFEITEIRO;1;
+CONTADOR;2;
+COPEIRO;4;
+COPEIRO DE HOSPITAL;1;
+CORRETOR DE SEGUROS;1;
+COSTUREIRA DE PEÇAS SOB ENCOMENDA;5;
+COSTUREIRA DE REPARAÇÃO DE ROUPAS;1;
+COSTUREIRO NA CONFECÇÃO EM SÉRIE;1;
+COZINHADOR (CONSERVAÇÃO DE ALIMENTOS);1;
+COZINHEIRO DO SERVIÇO DOMÉSTICO;1;
+COZINHEIRO GERAL;7;
+COZINHEIRO INDUSTRIAL;1;
+CUIDADOR DE IDOSOS;5;
+CUIDADOR EM SAÚDE;1;
+DESENHISTA TÉCNICO (ARTES GRÁFICAS);1;
+DESOSSADOR;2;
+DESPACHANTE DOCUMENTALISTA;1;
+DIRETOR ADMINISTRATIVO;1;
+ELETRICISTA DE INSTALAÇÕES;2;
+ELETRICISTA DE INSTALAÇÕES (EDIFÍCIOS);1;
+EMPREGADO DOMÉSTICO ARRUMADOR;1;
+EMPREGADO DOMÉSTICO DIARISTA;12;
+EMPREGADO DOMÉSTICO FAXINEIRO;6;
+EMPREGADO DOMÉSTICO NOS SERVIÇOS GERAIS;31;
+ENCANADOR;1;
+ENCARREGADO DE MANUTENÇÃO MECÂNICA DE SISTEMAS OPERACIONAIS;1;
+ENCARREGADO GERAL DE OPERAÇÕES DE CONSERVAÇÃO DE VIAS PERMANENTES (EXCETO TRILHOS);1;
+ENFERMEIRO;4;
+ENTREGADOR DE PUBLICAÇÕES;1;
+ESTAMPADOR DE TECIDO;1;
+ESTIVADOR;2;
+ESTOFADOR DE MÓVEIS;1;
+FARMACÊUTICO;2;
+FAXINEIRO;17;
+GARÇOM;5;
+GERENTE COMERCIAL;1;
+GERENTE DE LOJA E SUPERMERCADO;1;
+GERENTE DE PRODUÇÃO E OPERAÇÕES;1;
+GUARDA-CIVIL MUNICIPAL;1;
+GUIA DE TURISMO;1;
+INSTALADOR DE SOM E ACESSÓRIOS DE VEÍCULOS;2;
+JARDINEIRO;2;
+MANICURE/PEDICURE;3;
+MAQUIADOR;1;
+MARCENEIRO;2;
+MASSOTERAPEUTA;1;
+MECÂNICO DE MANUTENÇÃO DE AUTOMÓVEIS, MOTOCICLETAS E VEÍCULOS SIMILARES;6;
+MECÂNICO DE MANUTENÇÃO DE BICICLETAS E VEÍCULOS SIMILARES;1;
+MECÂNICO DE MANUTENÇÃO DE VEÍCULOS FERROVIÁRIOS;1;
+MECÂNICO DE REFRIGERAÇÃO;2;
+MECÂNICO DE VEÍCULOS AUTOMOTORES A DIESEL (EXCETO TRATORES);1;
+MESTRE (CONSTRUÇÃO CIVIL);1;
+MOTOFRETISTA;4;
+MOTORISTA DE CAMINHÃO (ROTAS REGIONAIS E INTERNACIONAIS);1;
+MOTORISTA DE CARRO DE PASSEIO;4;
+MOTORISTA DE ÔNIBUS URBANO;2;
+MOTORISTA DE TÁXI;2;
+OPERADOR DE ACABAMENTO (INDÚSTRIA GRÁFICA);1;
+OPERADOR DE CAIXA;1;
+OPERADOR DE MÁQUINA COPIADORA (EXCETO OPERADOR DE GRÁFICA RÁPIDA);1;
+OPERADOR DE TELEMARKETING ATIVO E RECEPTIVO;1;
+PADEIRO;1;
+PEDAGOGO;1;
+PEDREIRO;20;
+PINTOR DE ESTRUTURAS METÁLICAS;1;
+POLICIAL RODOVIÁRIO FEDERAL;1;
+POLIDOR DE METAIS;1;
+PORTEIRO DE EDIFÍCIOS;22;
+PROFESSOR DA EDUCAÇÃO DE JOVENS E ADULTOS DO ENSINO FUNDAMENTAL (PRIMEIRA A QUARTA SÉRIE);2;
+PROFESSOR DE ARTES DO ESPETÁCULO NO ENSINO SUPERIOR;1;
+PROFESSOR DE COMUNICAÇÃO SOCIAL DO ENSINO SUPERIOR;1;
+PROFESSOR DE DISCIPLINAS PEDAGÓGICAS NO ENSINO MÉDIO;1;
+PROFESSOR DE EDUCAÇÃO FÍSICA NO ENSINO SUPERIOR;1;
+PROFESSOR DE MATEMÁTICA DO ENSINO FUNDAMENTAL;1;
+PROFESSOR DE MATEMÁTICA NO ENSINO MÉDIO;1;
+PROFESSOR DE MÚSICA NO ENSINO SUPERIOR;1;
+PROFESSOR DE NÍVEL MÉDIO NO ENSINO FUNDAMENTAL;1;
+PROFESSOR DE NÍVEL MÉDIO NO ENSINO PROFISSIONALIZANTE;1;
+PROMOTOR DE VENDAS ESPECIALIZADO;2;
+PSICÓLOGO CLÍNICO;2;
+PSICÓLOGO SOCIAL;1;
+RECEPCIONISTA DE CASAS DE ESPETÁCULOS;1;
+RECEPCIONISTA DE CONSULTÓRIO MÉDICO OU DENTÁRIO;2;
+RECEPCIONISTA, EM GERAL;3;
+REPOSITOR DE MERCADORIAS;1;
+SALGADOR DE ALIMENTOS;1;
+SERRALHEIRO;1;
+SERVENTE DE OBRAS;3;
+SUPERVISOR ADMINISTRATIVO;1;
+SUPERVISOR DE COMPRAS;1;
+SUPERVISOR DE VENDAS COMERCIAL;1;
+TÉCNICO DE ENFERMAGEM;11;
+TÉCNICO DE LABORATÓRIO DE ANÁLISES FÍSICO-QUÍMICAS (MATERIAIS DE CONSTRUÇÃO);2;
+TÉCNICO DE REDE (TELECOMUNICAÇÕES);1;
+TÉCNICO ELETRÔNICO;1;
+TÉCNICO EM SECRETARIADO;1;
+TÉCNICO EM SEGURANÇA DO TRABALHO;1;
+VENDEDOR AMBULANTE;12;
+VENDEDOR DE COMÉRCIO VAREJISTA;5;
+VENDEDOR EM DOMICÍLIO;3;
+VENDEDOR PERMISSIONÁRIO;1;
+VENDEDOR PRACISTA;1;
+VIGILANTE;7;
+;1427;
+
+Informações sociodemográficas - Qual é o curso mais elevado que frequenta ou frequentou
+Descrição;Quantidade;
+Creche;33;
+Pré-escola (exceto CA);40;
+Classe de alfabetização - CA;37;
+Ensino fundamental 1ª a 4ª séries;240;
+Ensino fundamental 5ª a 8ª séries;363;
+Ensino fundamental completo;42;
+Ensino fundamental especial;1;
+Ensino fundamental EJA - séries iniciais (supletivo 1ª a 4ª);4;
+Ensino fundamental EJA - séries finais (supletivo 5ª a 8ª);13;
+Ensino médio, médio 2º ciclo (científico, técnico e etc);491;
+Ensino médio especial;13;
+Ensino médio EJA (supletivo);0;
+Superior, aperfeiçoamento, especialização, mestrado, doutorado;112;
+Alfabetização para adultos (Mobral, etc);2;
+Nenhum;91;
+Não informado;337;
+
+Informações sociodemográficas - Situação no mercado de trabalho
+Descrição;Quantidade;
+Empregador;28;
+Assalariado com carteira de trabalho;220;
+Assalariado sem carteira de trabalho;39;
+Autônomo com previdência social;47;
+Autônomo sem previdência social;129;
+Aposentado / Pensionista;214;
+Desempregado;108;
+Não trabalha;436;
+Servidor público / Militar;11;
+Outro;20;
+Não informado;567;
+
+Informações sociodemográficas - Crianças de 0 a 9 anos, com quem fica
+Descrição;Quantidade;
+Adulto responsável;251;
+Outra(s) criança(s);0;
+Adolescente;3;
+Sozinha;0;
+Creche;5;
+Outro;0;
+Não informado;1565;
+
+Informações sociodemográficas - Orientação sexual
+Descrição;Sub Descrição;Quantidade;
+Deseja informar orientação sexual?;Sim;245;
+Deseja informar orientação sexual?;Não;1334;
+Deseja informar orientação sexual?;N. Inf;240;
+Heterossexual;;232;
+Homossexual (gay / lésbica);;9;
+Bissexual;;1;
+Gay;;0;
+Lésbica;;2;
+Assexual;;0;
+Panssexual;;0;
+Outro;;1;
+
+Informações sociodemográficas - Identidade de gênero
+Descrição;Sub Descrição;Quantidade;
+Deseja informar identidade de gênero?;Sim;104;
+Deseja informar identidade de gênero?;Não;1468;
+Deseja informar identidade de gênero?;N. Inf;247;
+Homem transgênero;;2;
+Mulher transgênero;;1;
+Travesti;;0;
+Homem cisgênero;;33;
+Mulher cisgênero;;65;
+Transgênero;;0;
+Não-Binário;;0;
+Outro;;2;
+
+Informações sociodemográficas - Deficiência
+Descrição;Sub Descrição;Quantidade;
+Tem alguma deficiência?;Sim;52;
+Tem alguma deficiência?;Não;1767;
+Auditiva;;4;
+Física;;30;
+Intelectual / Cognitiva;;14;
+Visual;;6;
+Outra;;6;
+
+Informações sociodemográficas - Povos e comunidades
+A lista apresenta registros do LEDI versão 4.2.1 ou superior.
+Descrição;Sub Descrição;Quantidade;
+É membro de Povo ou Comunidade Tradicional ou Campo, Floresta e Águas?;Sim;0;
+É membro de Povo ou Comunidade Tradicional ou Campo, Floresta e Águas?;Não;1501;
+É membro de Povo ou Comunidade Tradicional ou Campo, Floresta e Águas?;N. Inf;318;
+
+Outras informações sociodemográficas
+Descrição;Sim;Não;Não informado;
+Frequenta cuidador tradicional?;2;1520;297;
+Frequenta escola ou creche;389;1253;177;
+Participa de algum grupo comunitário?;13;1497;309;
+Possui plano de saúde privado?;144;1403;272;
+
+Motivo de saída do cidadão do cadastro
+Descrição;Quantidade;
+Mudança de território;0;
+Óbito;0;
+
+Condições / Situações de saúde gerais
+Descrição;Sim;Não;Não informado;
+Está acamado;7;1569;243;
+Está com hanseníase;0;1566;253;
+Está com tuberculose;6;1524;289;
+Está domiciliado;42;1528;249;
+Está fumante;130;1390;299;
+Está gestante;14;606;1199;
+Faz uso de álcool;298;1230;291;
+Faz uso de outras drogas;19;1499;301;
+PIC;3;1472;344;
+Tem diabetes;147;1427;245;
+Tem hipertensão arterial;375;1222;222;
+Tem ou teve câncer;8;1563;248;
+Teve AVC / derrame;33;1555;231;
+Teve diagnóstico de algum problema de saúde mental por profissional de saúde;34;1443;342;
+Teve infarto;19;1543;257;
+Teve internação nos últimos 12 meses?;60;1445;314;
+Usa plantas medicinais;35;1468;316;
+
+Condições / Situações de saúde gerais - Sobre seu peso, você se considera
+Descrição;Quantidade;
+Abaixo do peso;47;
+Peso adequado;1136;
+Acima do peso;352;
+Não informado;284;
+
+Condições / Situações de saúde gerais - Doença respiratória
+Descrição;Sub Descrição;Quantidade;
+Tem doença respiratória / no pulmão?;Sim;66;
+Tem doença respiratória / no pulmão?;Não;1487;
+Tem doença respiratória / no pulmão?;N. Inf;266;
+Asma;;49;
+DPOC / Enfisema;;3;
+Outra;;14;
+Não sabe;;1;
+
+Condições / Situações de saúde gerais - Doença cardíaca
+Descrição;Sub Descrição;Quantidade;
+Tem doença cardíaca / do coração?;Sim;34;
+Tem doença cardíaca / do coração?;Não;1543;
+Tem doença cardíaca / do coração?;N. Inf;242;
+Insuficiência cardíaca;;18;
+Não sabe;;1;
+Outra;;15;
+
+Condições / Situações de saúde gerais - Problemas nos rins
+Descrição;Sub Descrição;Quantidade;
+Tem ou teve problemas nos rins?;Sim;19;
+Tem ou teve problemas nos rins?;Não;1527;
+Tem ou teve problemas nos rins?;N. Inf;273;
+Insuficiência renal;;3;
+Outra;;14;
+Não sabe;;2;
+
+Cidadão em situação de rua
+Descrição;Sim;Não;Não informado;
+É acompanhado por outra instituição;0;0;1819;
+Possui referência familiar?;0;0;1819;
+Recebe algum benefício;0;0;1819;
+Visita algum familiar com frequência;0;0;1819;
+
+Cidadão em situação de rua - Tempo em situação de rua
+Descrição;Sub Descrição;Quantidade;
+Deseja informar?;Sim;0;
+Deseja informar?;Não;1804;
+Menos de 6 meses;;0;
+6 a 12 meses;;0;
+1 a 5 anos;;0;
+Mais de 5 anos;;0;
+
+Cidadão em situação de rua - Quantas vezes se alimenta ao dia
+Descrição;Quantidade;
+1 vez;0;
+2 ou 3 vezes;0;
+Mais de 3 vezes;0;
+Não informado;1819;
+
+Cidadão em situação de rua - Qual a origem da alimentação
+Descrição;Quantidade;
+Restaurante popular;0;
+Doação restaurante;0;
+Outros;0;
+Doação grupo religioso;0;
+Doação de popular;0;
+Não informado;1819;
+
+Cidadão em situação de rua - Tem acesso à higiene pessoal
+Descrição;Sub Descrição;Quantidade;
+Tem acesso à higiene pessoal?;Sim;0;
+Tem acesso à higiene pessoal?;Não;0;
+Tem acesso à higiene pessoal?;N. Inf;1819;
+Banho;;0;
+Acesso ao sanitário;;0;
+Higiene bucal;;0;
+Outros;;0;
+
+TRIA - Nos últimos três meses, os alimentos acabaram antes que a pessoa tivesse dinheiro para comprar mais comida?
+Descrição;Quantidade;
+Sim;126;
+Não;289;
+Não informado;1404;
+
+TRIA - Nos últimos três meses, a pessoa comeu apenas alguns alimentos que ainda tinha, porque o dinheiro acabou?
+Descrição;Quantidade;
+Sim;127;
+Não;288;
+Não informado;1404;
